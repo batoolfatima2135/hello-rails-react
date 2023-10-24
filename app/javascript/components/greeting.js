@@ -10,6 +10,6 @@ export default function Greeting() {
   }, [dispatch]);
 
   return (
-  <div>{greetings}</div>
+  <div class='p-3'>{greetings}</div>
   );
 }
